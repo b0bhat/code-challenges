@@ -1,3 +1,4 @@
+# Solver for https://adventofcode.com/2023/day/7
 import time
 
 start_time = time.time()
