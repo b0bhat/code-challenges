@@ -24,7 +24,7 @@ def sort_in_tiers(sorted_tier, max_freq_of_larger_type=0):
 
 sorted = [[], [], [], [], []]
 inty = 0
-with open("oof.txt", "r") as f:
+with open("day7_input.txt", "r") as f:
   for line in f.read().split('\n'):
     hand, bid = line.split(' ')
     hand_alpha = ''.join(replacement[number[0]] for number in hand)
